@@ -10,3 +10,106 @@ a:hover{
     color: brown !important;
     /* font-size: 25px !important; */
 }
+.headsection{
+    display: flex; padding-top: 50px; height: 50vh; margin: auto; width: 95%;
+}
+.headsection p{
+    margin-top: 30px;
+}
+#headdiv{
+    margin-top: 40px;
+}
+#headButton{
+    margin-left: 100px; color: brown; border: 1px brown solid; background-color: black;
+}
+#headimgdiv{
+    margin-left: 400px;
+}
+.secSection{
+    margin: auto; width: 95%;
+}
+#secSectionDiv{
+    height: 50px; width: 95%; margin: auto; margin-top: -25px; background-color: white;
+}
+#secDivSect{
+    display: flex; padding-top: 10px; gap: 150px;
+}
+#secDivSect p{
+    margin-left: 10px;
+}
+.secDivSectImg1{
+    height: 20px; width: 50px;
+}
+.secDivSectImg2{
+    height: 30px; width: 50px;
+}
+.secDivSectImg3{
+    height: 30px; width: 30px;
+}
+.secSection h4{
+    margin: auto; width: 20%; margin-top: 40px;
+}
+#secSection2div{
+    width: 100%; padding: 100px;
+}
+#secSection2div h5{
+    margin-left: 30px;
+}
+#secSection2div a{
+    color: black !important
+}
+#svgDiv{
+    display: flex; justify-content: center;
+}
+.card-body div{
+    display: flex; gap: 180px;
+}
+.trdSection{
+    height: 40vh; background-color: black; margin-top: -300px;
+}
+.f4tSection{
+    margin: auto; width: 95%;
+}
+.f4tSection img{
+    height: 250px; width: 300px; border-radius: 50% 0% 0% 50%;
+}
+.colImg{
+    margin-top: 50px;
+}
+.colDiv{
+    margin-top: 100px; margin-left: -700px;
+}
+.divWatch{
+    margin-top: 100px;
+}
+#divWatchBrown{
+    background-color: brown; width: 90%; height: 210px;
+}
+#divWatchContent{
+    padding: 20px; margin-left: 40px;
+}
+.divWatch img{
+    margin-left: -250px; margin-top: -50px; height: 300px; border-radius: 20% 20% 20% 20%;
+}
+.f5tSetion{
+    background-color: black; height: 40vh; margin-top: 100px; color: white;
+}
+#f5Div{
+    margin: auto; width: 85%; display: flex; gap: 95px; padding-top: 50px;
+}
+.f5tSetion ol{
+    margin-left: -30px; list-style: none;
+}
+
+
+@media all and (min-width : 320px) {
+    #atag{
+        display: block;
+    }
+    #centersec {
+        margin: auto;
+        width: 80%;
+        border: 1px red solid;
+        min-height: 50vh;
+    }
+}
